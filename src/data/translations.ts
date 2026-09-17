@@ -34,7 +34,7 @@ export const translations: Record<Language, Record<string, any>> = {
       statAssets: '15 Ativos',
       statTimeframes: '7 Timeframes (M1-D1)',
       activeTraders: '500+ Traders ativos operando diariamente',
-      trustNotice: 'Compatível com qualquer corretora e servidor no MT4 · Windows 10/11 & VPS',
+      trustNotice: 'trustNotice: 'Exclusivo para contas Deriv · Compatível com qualquer terminal MT4 (Windows 10/11 & VPS)',
     },
     simulator: {
       title: 'Experimente a Interface Oficial do DMT4-Deriv v5.7',
