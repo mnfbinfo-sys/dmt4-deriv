@@ -113,7 +113,7 @@ export const translations: Record<Language, Record<string, any>> = {
       nextDesc: 'A ordem é calculada e enviada exatamente no segundo 00:00 da abertura do candle seguinte. Perfeito para estratégias de Price Action e reversão clássica.',
       nextBadge: 'Abertura de Vela',
       crossTitle: 'Cruzada (Cross Candle)',
-      crossDesc: 'Aguarda confirmação de fechamento e confluência antes de validar a entrada. Reduz falsos rompimentos e maximiza sua taxa de acerto.',
+      crossDesc: 'Duração fixa contínua (ex: ordem de 1 min aberta aos 20s fecha aos 20s da próxima vela).',
       crossBadge: 'Confirmação Dupla',
     },
     indices: {
