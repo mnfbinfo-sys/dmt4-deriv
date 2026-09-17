@@ -87,7 +87,7 @@ export const EntryModesExplainer: React.FC<EntryModesExplainerProps> = ({ curren
 
             <div className="p-3 bg-black/40 rounded-lg border border-slate-800 text-xs font-mono text-slate-300 space-y-1">
               <div className="text-slate-400">Tempo de disparo:</div>
-              <div className="text-[#17a2b8] font-bold">00:00.00s na abertura do candle</div>
+              <div className="text-[#17a2b8] font-bold">Abertura da nova vela</div>
             </div>
           </div>
 
@@ -118,7 +118,7 @@ export const EntryModesExplainer: React.FC<EntryModesExplainerProps> = ({ curren
 
             <div className="p-3 bg-black/40 rounded-lg border border-slate-800 text-xs font-mono text-slate-300 space-y-1">
               <div className="text-slate-400">Tempo de disparo:</div>
-              <div className="text-amber-400 font-bold">Filtro de reversão / confluência</div>
+              <div className="text-amber-400 font-bold">Duração contínua (cruza o término do candle)</div>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export const EntryModesExplainer: React.FC<EntryModesExplainerProps> = ({ curren
             <div className="p-4 rounded-lg bg-[#0e1726] border border-slate-800">
               <div className="font-bold text-[#17a2b8] mb-1">PRÓXIMA VELA (Price Action)</div>
               <div className="text-slate-400 text-[11px] mb-3">
-                [Espera 00:59s] ➔ Disparo Exato em 00:00.00s da Nova Vela
+                [Prepara Ordem] ➔ Disparo na Abertura da Nova Vela
               </div>
               <div className="w-full bg-slate-800 h-2 rounded overflow-hidden">
                 <div className="w-full bg-[#17a2b8] h-full" />
@@ -152,9 +152,9 @@ export const EntryModesExplainer: React.FC<EntryModesExplainerProps> = ({ curren
             </div>
 
             <div className="p-4 rounded-lg bg-[#0e1726] border border-slate-800">
-              <div className="font-bold text-amber-400 mb-1">CRUZADA (Confluência)</div>
+              <div className="font-bold text-amber-400 mb-1">CRUZADA (Duração Contínua)</div>
               <div className="text-slate-400 text-[11px] mb-3">
-                [Confirma Fechamento e Rompimento] ➔ Entrada Segura
+                [Entrada aos 20s do Candle 1] ➔ [Expira aos 20s do Candle 2]
               </div>
               <div className="w-full bg-slate-800 h-2 rounded overflow-hidden">
                 <div className="w-3/4 bg-amber-400 h-full" />
