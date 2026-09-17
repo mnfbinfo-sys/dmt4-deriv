@@ -1,0 +1,6 @@
+{
+  "name": "DMT4-Deriv Pro",
+  "description": "Site oficial do DMT4-Deriv Pro: espelhamento de gráficos da Deriv para MetaTrader 4 em tempo real, painel de ordens, 3 modos de entrada e teste grátis de 3 dias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
